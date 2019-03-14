@@ -40,14 +40,14 @@ input {
 ::-moz-placeholder { color: #666; }
 :-ms-input-placeholder { color: #666; }
 
-#myVideo {
+/* #myVideo {
   position: fixed;
   right: 0;
   left: 0;
   bottom: 0;
   min-width: 100%; 
   min-height: 100%;
-}
+} */
 
 /* Add some content at the bottom of the video/page */
 .content {
@@ -62,7 +62,7 @@ a {
   text-decoration: none;
  }
 
- @media (min-width: 768px){
+ /* @media (min-width: 768px){
 #myVideo {
   position: fixed;
   right: 0;
@@ -70,6 +70,20 @@ a {
   bottom: 0;
   min-width: 100%; 
   min-height: 100%;
+} */
+
+ }
+@media only screen and (max-width:900px){
+    input{
+    width: 50%;
 }
 
  }
+
+ @media only screen and (max-width:600px){
+    input{
+    width: 75%;
+}
+
+ }
+
