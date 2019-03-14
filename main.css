@@ -1,12 +1,13 @@
 body{
-    background-color: #3f51b5
+    background-color: black;
 }
 
 h1{
     font-family: 'Oswald', sans-serif;
     font-size:  5rem;
-    color: black;
-    text-shadow:  2px 2px 8px black;
+    color: rgba(19, 20, 22,0.4);
+     text-shadow: 1px 1px  rgba(22, 47, 89, 0.7);
+     letter-spacing: 0.5rem;
 }
 .btn{
     background-color: rgba(0,0,0,0.1);
@@ -42,6 +43,7 @@ input {
 #myVideo {
   position: fixed;
   right: 0;
+  left: 0;
   bottom: 0;
   min-width: 100%; 
   min-height: 100%;
@@ -51,8 +53,6 @@ input {
 .content {
   position: fixed;
   bottom: 0;
- 
-  
   width: 100%;
   padding: 20px;
 }
@@ -60,4 +60,16 @@ input {
 a {
   color:inherit;
   text-decoration: none;
+ }
+
+ @media (min-width: 768px){
+#myVideo {
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
  }
