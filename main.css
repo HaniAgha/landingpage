@@ -6,8 +6,8 @@ h1{
     font-family: 'Oswald', sans-serif;
     font-size:  5rem;
     color: rgba(19, 20, 22,0.4);
-     text-shadow: 1px 1px  rgba(216, 223, 235, 0.7);
-     letter-spacing: 0.5rem;
+     text-shadow: -4px -4px rgba(216, 223, 235, 0.7);
+     letter-spacing: 2rem;
 }
 .btn{
     background-color: rgba(0,0,0,0.1);
@@ -92,6 +92,11 @@ a {
  @media only screen and (max-width:600px){
     input{
     width: 75%;
+}
+.title{
+
+    
+     padding-bottom: 75%;
 }
 
  }
